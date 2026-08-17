@@ -1,4 +1,4 @@
-# 微信公众号爆款选题与标题Skill
+# 微信公众号爆款选题与标题 Skill
 
 <p align="center">
   <a href="./SKILL.md"><img src="https://img.shields.io/badge/skill-bigpeng--hot--gzh-E23D2D?style=flat-square" alt="skill"></a>
@@ -6,13 +6,11 @@
   <img src="https://img.shields.io/badge/for-WeChat%20公众号-07C160?style=flat-square" alt="WeChat">
 </p>
 
-这是一个给微信公众号做**选题和标题**的 Agent Skill。公式不是拍脑袋想的，而是从约 100 篇爆款 AI 公众号文章里拆出来的：什么身份、什么数字、什么反转，会反复出现在能点开的标题上。
-
-换到电商、体制内、教育时，复用同一套槽位，不要复用语料里的产品名。只做选题和标题，不写正文。
+给微信公众号做选题和标题。材料来自大约 100 篇爆款 AI 公号文章，拆的是标题里反复出现的身份、数字、反转。换到电商或体制内也能用：槽位留下，语料里的产品名不要跟着搬。不写正文。
 
 ## 爆款标题的 7 种公式
 
-高转化标题通常同时有三件事：**具体对象 + 可感知结果 + 读者身份或情绪**。
+能点开的标题，多半先让人看懂：写给谁、在讲什么、看完能带走什么。
 
 | 公式 | 怎么写 |
 |---|---|
@@ -24,26 +22,26 @@
 | 对比站队 | A 和 B 到底选哪个 / 实测 A 和 B |
 | 情绪短句 | 短、口语；一篇里最多 1 条 |
 
-选题侧还有 8 个可复制模板：必装清单、亲测复盘、从 0 到 1 教程、热点产品落地、对比抉择、开源神器安利、身份场景化、反常识/情绪钩。
+选题还有 8 个模板：必装清单、亲测复盘、从 0 到 1 教程、热点产品落地、对比抉择、开源神器安利、身份场景化、反常识/情绪钩。
 
-写法上的硬约束：
+写的时候卡住这几条：
 
-- 主标题约 18–32 字；工具名尽量出现在前 16 字
-- 数字必须具体（7、50、209 页），禁止「多个」「一系列」
-- 标题写了「附教程 / 提示词 / 开源仓库」，正文就得真有
-- 不编造 Star、下载量、实验样本量
-- 候选标题禁止同义改写
-- 不用震惊、重磅、炸裂，也不写 `XX 发布了` 这种通稿
+- 主标题大约 18–32 字，工具名尽量放进前 16 字
+- 数字要具体，7、50、209 页都可以，「多个」「一系列」不行
+- 标题写了「附教程 / 提示词 / 开源仓库」，正文就得有
+- 别编 Star、下载量、实验样本量
+- 一组标题不要互相同义改写
+- 别用震惊、重磅、炸裂，也别写 `XX 发布了`
 
-完整规则在 [references/title-formulas.md](references/title-formulas.md) 和 [references/topic-templates.md](references/topic-templates.md)。真实标题样本见 [references/title-corpus.md](references/title-corpus.md)。
+规则全文在 [references/title-formulas.md](references/title-formulas.md) 和 [references/topic-templates.md](references/topic-templates.md)。真实标题样本在 [references/title-corpus.md](references/title-corpus.md)。
 
 ## 使用方法
 
-装好后，对 Agent 说「用 bigpeng-hot-gzh」，再丢一段文章想法、草稿或草稿标题。它会按不同公式给出候选爆款标题，并标一个首选。
+对 Agent 说「用 bigpeng-hot-gzh」，再贴一段想法或草稿。它按不同公式出一组标题，并标一条首选。
 
-更多调用见 [examples/prompts.md](examples/prompts.md)。
+其他叫法见 [examples/prompts.md](examples/prompts.md)。
 
-### 例子：输入文章想法，得到候选标题
+### 例子
 
 **输入**
 
@@ -66,7 +64,7 @@
 | 对比站队 | 与其每次让 AI 重想封面，不如装这 8 个 Skill |
 | 情绪短句 | 小红书封面这件事，终于不用每次从头聊 |
 
-首选：`中文创作者必装的 8 个小红书封面 Skill`。身份、数字、场景都在前 16 字里，正文也能兑现。
+首选：`中文创作者必装的 8 个小红书封面 Skill`。前 16 字就能看懂给谁、几条、干什么。
 
 ## 安装
 
@@ -80,14 +78,14 @@ ln -sfn "$(pwd)" "${HOME}/.cursor/skills/bigpeng-hot-gzh"
 
 ### Claude Code / Codex 等
 
-把本目录放到对应产品的 skills 路径，保证能读到 `SKILL.md`。入口文件是 [SKILL.md](./SKILL.md)。
+把本目录放到对应产品的 skills 路径，能读到 `SKILL.md` 即可。入口是 [SKILL.md](./SKILL.md)。
 
 ## 边界
 
-- 不写正文、大纲、配图。写稿交给其他写作 skill。
-- 不是推文 20 字短标题器。这是给公众号信息流用的偏长标题。
-- 语料偏 AI 工具赛道。换赛道时只复用公式，不要把 Codex / WorkBuddy / Skill 硬套进去。
-- 社会证明类标题没有公开可查数字时，会改用清单或教程公式，而不是编一个星标数。
+- 不写正文、大纲和配图
+- 标题偏长，给公众号信息流用，不是推文那套 20 字
+- 语料偏 AI 工具。换赛道只搬公式，别把 Codex、WorkBuddy 硬套进去
+- 没有公开可查的 Star 或下载量，就不要走社会证明，改清单或教程
 
 ## 仓库结构
 
