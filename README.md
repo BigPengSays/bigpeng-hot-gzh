@@ -37,6 +37,37 @@
 
 完整规则在 [references/title-formulas.md](references/title-formulas.md) 和 [references/topic-templates.md](references/topic-templates.md)。真实标题样本见 [references/title-corpus.md](references/title-corpus.md)。
 
+## 使用方法
+
+装好后，对 Agent 说「用 bigpeng-hot-gzh」，再丢一段文章想法、草稿或草稿标题。它会按不同公式给出候选爆款标题，并标一个首选。
+
+更多调用见 [examples/prompts.md](examples/prompts.md)。
+
+### 例子：输入文章想法，得到候选标题
+
+**输入**
+
+```text
+用 bigpeng-hot-gzh 帮我起几个爆款公众号标题。
+
+想法：我把最近两个月用 AI 做小红书封面的流程收成了 8 个 Skill，
+从选题、文案、出图到封面文字都覆盖。给自己做号的中文创作者看。
+正文里会写每个 Skill 的装法和一个真实用例。
+```
+
+**输出（节选）**
+
+| 公式 | 候选标题 |
+|---|---|
+| 数字清单 | 中文创作者必装的 8 个小红书封面 Skill |
+| 我+代价+收获 | 我把小红书封面流程收成 8 个 Skill，从选题到出图不用再临时想 |
+| 反转结论 | 做小红书封面，缺的不是灵感，是这 8 个可安装的 Skill |
+| 速成教程 | 8 个 Skill 把小红书封面从选题做到出图 |
+| 对比站队 | 与其每次让 AI 重想封面，不如装这 8 个 Skill |
+| 情绪短句 | 小红书封面这件事，终于不用每次从头聊 |
+
+首选：`中文创作者必装的 8 个小红书封面 Skill`。身份、数字、场景都在前 16 字里，正文也能兑现。
+
 ## 安装
 
 ### Cursor
@@ -50,8 +81,6 @@ ln -sfn "$(pwd)" "${HOME}/.cursor/skills/bigpeng-hot-gzh"
 ### Claude Code / Codex 等
 
 把本目录放到对应产品的 skills 路径，保证能读到 `SKILL.md`。入口文件是 [SKILL.md](./SKILL.md)。
-
-调用样例见 [examples/prompts.md](examples/prompts.md)。
 
 ## 边界
 
