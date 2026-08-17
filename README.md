@@ -1,4 +1,4 @@
-# 爆款公众号选题与标题
+# 微信公众号爆款选题与标题Skill
 
 <p align="center">
   <a href="./SKILL.md"><img src="https://img.shields.io/badge/skill-bigpeng--hot--gzh-E23D2D?style=flat-square" alt="skill"></a>
