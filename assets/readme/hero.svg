@@ -1,29 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">bigpeng-hot-gzh: WeChat topic and title skill</title>
-  <desc id="desc">With a draft, output 6 titles from different formulas. Without a topic, output 4 directions then titles.</desc>
+  <title id="title">bigpeng-hot-gzh 爆款公众号选题与标题</title>
+  <desc id="desc">从约 100 篇爆款 AI 公众号文章中总结的选题与标题 Agent Skill。内含 7 种标题公式和 8 个选题模板。</desc>
   <rect width="1200" height="400" rx="28" fill="#141210"/>
   <rect x="0" y="0" width="8" height="400" rx="4" fill="#E23D2D"/>
   <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif">
     <text x="56" y="58" fill="#9A9388" font-size="18" letter-spacing="2.4">AGENT SKILL · WECHAT</text>
     <text x="56" y="128" fill="#F4EEE4" font-size="48" font-weight="700">爆款公众号选题与标题</text>
     <text x="56" y="176" fill="#E8C36A" font-size="22">bigpeng-hot-gzh</text>
-    <text x="56" y="232" fill="#D8D0C4" font-size="22">有草稿，出 6 条不同公式的候选标题。</text>
-    <text x="56" y="264" fill="#D8D0C4" font-size="22">没选题，先给 4 个方向，再配标题。</text>
-    <text x="56" y="322" fill="#9A9388" font-size="18">7 型公式 · 8 个选题模板 · 只做选题和标题</text>
-    <text x="56" y="354" fill="#9A9388" font-size="18">信息流截断后，前 16 字仍要能看懂在讲谁</text>
+    <text x="56" y="236" fill="#D8D0C4" font-size="22">从约 100 篇爆款 AI 公众号文章里</text>
+    <text x="56" y="268" fill="#D8D0C4" font-size="22">抽出可复用的选题模板和标题公式。</text>
+    <text x="56" y="334" fill="#9A9388" font-size="18">给公众号选题，也给能点开的标题。不写正文。</text>
   </g>
   <g transform="translate(700 40)">
-    <rect width="444" height="148" rx="18" fill="#1E1B18" stroke="#3A342E"/>
-    <rect x="20" y="20" width="54" height="28" rx="8" fill="#E23D2D"/>
-    <text x="47" y="40" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">A</text>
-    <text x="86" y="40" fill="#F4EEE4" font-size="20" font-weight="600">已有选题</text>
-    <text x="20" y="82" fill="#9A9388" font-size="16">草稿 / 描述 / 草稿标题</text>
-    <text x="20" y="116" fill="#E8C36A" font-size="18">6 条标题 + 1 个首选</text>
-    <rect y="172" width="444" height="148" rx="18" fill="#1E1B18" stroke="#3A342E"/>
-    <rect x="20" y="192" width="54" height="28" rx="8" fill="#E8C36A"/>
-    <text x="47" y="212" text-anchor="middle" fill="#141210" font-size="16" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">B</text>
-    <text x="86" y="212" fill="#F4EEE4" font-size="20" font-weight="600">没有选题</text>
-    <text x="20" y="254" fill="#9A9388" font-size="16">关键词 / 想法 / 空输入</text>
-    <text x="20" y="288" fill="#E8C36A" font-size="18">4 个方向，每个 3 条标题</text>
+    <rect width="444" height="100" rx="18" fill="#1E1B18" stroke="#3A342E"/>
+    <text x="28" y="42" fill="#E8C36A" font-size="20" font-weight="700">约 100 篇</text>
+    <text x="28" y="74" fill="#D8D0C4" font-size="18">爆款 AI 公号文章语料</text>
+    <rect y="116" width="444" height="100" rx="18" fill="#1E1B18" stroke="#3A342E"/>
+    <text x="28" y="158" fill="#E8C36A" font-size="20" font-weight="700">7 种公式</text>
+    <text x="28" y="190" fill="#D8D0C4" font-size="18">清单 / 代价 / 反转 / 教程 / 证明</text>
+    <rect y="232" width="444" height="100" rx="18" fill="#E23D2D"/>
+    <text x="28" y="274" fill="#FFFFFF" font-size="20" font-weight="700">8 个选题模板</text>
+    <text x="28" y="306" fill="#FFEDE9" font-size="18">必装、亲测、速通、热点、对比</text>
   </g>
 </svg>
