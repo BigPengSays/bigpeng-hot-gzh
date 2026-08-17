@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="bigpeng-hot-gzh：从约 100 篇爆款 AI 公众号文章中总结的选题与标题 Skill">
-</p>
+# 爆款公众号选题与标题
 
 <p align="center">
   <a href="./SKILL.md"><img src="https://img.shields.io/badge/skill-bigpeng--hot--gzh-E23D2D?style=flat-square" alt="skill"></a>
@@ -11,10 +9,6 @@
 这是一个给微信公众号做**选题和标题**的 Agent Skill。公式不是拍脑袋想的，而是从约 100 篇爆款 AI 公众号文章里拆出来的：什么身份、什么数字、什么反转，会反复出现在能点开的标题上。
 
 换到电商、体制内、教育时，复用同一套槽位，不要复用语料里的产品名。只做选题和标题，不写正文。
-
-<p align="center">
-  <img src="./assets/readme/workflow.svg" width="100%" alt="抽出钩子、套公式、履约检查、标首选">
-</p>
 
 ## 爆款标题的 7 种公式
 
@@ -73,7 +67,6 @@ bigpeng-hot-gzh/
 ├── SKILL.md
 ├── README.md
 ├── LICENSE
-├── assets/readme/          # README 用的 SVG
 ├── examples/prompts.md     # 调用样例
 └── references/
     ├── topic-templates.md  # 8 个选题模板
