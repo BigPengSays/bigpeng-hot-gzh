@@ -1,7 +1,7 @@
 <h1 align="center">微信公众号爆款AI选题Skill</h1>
 
 <p align="center">
-  <strong>给微信公众号做选题和标题。材料来自大约 100 篇爆款 AI 公号文章，拆的是标题里反复出现的身份、数字、反转。换到电商或体制内也能用：槽位留下，语料里的产品名不要跟着搬。不写正文。</strong>
+  <strong>给微信公众号做选题和标题——只做选题和标题，不写正文。</strong>
 </p>
 
 <p align="center">
@@ -11,13 +11,19 @@
 </p>
 
 <p align="center">
+  <a href="#-为什么">为什么</a> ·
   <a href="#爆款标题的-7-种公式">公式</a> ·
   <a href="#使用方法">用法</a> ·
   <a href="#安装">安装</a> ·
-  <a href="#边界">边界</a> ·
-  <a href="#仓库结构">结构</a> ·
+  <a href="#常见问题">FAQ</a> ·
   <a href="examples/prompts.md">示例</a>
 </p>
+
+---
+
+## 🤔 为什么
+
+给微信公众号做选题和标题。材料来自大约 100 篇爆款 AI 公号文章，拆的是标题里反复出现的身份、数字、反转。换到电商或体制内也能用：槽位留下，语料里的产品名不要跟着搬。不写正文。
 
 ---
 
@@ -99,7 +105,7 @@ ln -sfn "$(pwd)" "${HOME}/.cursor/skills/bigpeng-hot-gzh"
 
 ---
 
-## 边界
+## 常见问题
 
 - 不写正文、大纲和配图
 - 标题偏长，给公众号信息流用，不是推文那套 20 字
@@ -108,8 +114,10 @@ ln -sfn "$(pwd)" "${HOME}/.cursor/skills/bigpeng-hot-gzh"
 
 ---
 
+## 仓库结构
+
 <details>
-<summary>📁 <strong>仓库结构</strong></summary>
+<summary>目录树</summary>
 
 ```text
 bigpeng-hot-gzh/
