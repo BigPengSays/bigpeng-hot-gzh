@@ -1,7 +1,7 @@
 <h1 align="center">微信公众号爆款AI选题Skill</h1>
 
 <p align="center">
-  <strong>给微信公众号做爆款选题和标题——基于 100 多篇爆款公众号文章总结的 7 种爆款标题公式</strong>
+  <strong>给微信公众号做爆款标题——基于 100 多篇爆款公众号文章总结的 7 种爆款标题公式</strong>
 </p>
 
 <p align="center">
