@@ -1,7 +1,7 @@
 <h1 align="center">微信公众号爆款AI选题Skill</h1>
 
 <p align="center">
-  <strong>给微信公众号做爆款标题——基于 100 多篇爆款文章总结的 7 个爆款标题公式</strong>
+  <strong>给微信公众号做选题和标题——只做选题和标题，不写正文。</strong>
 </p>
 
 <p align="center">
@@ -138,7 +138,8 @@ bigpeng-hot-gzh/
 ├── SKILL.md
 ├── README.md
 ├── LICENSE
-├── examples/prompts.md     # 调用样例
+├── assets/author-wechat.png # 公众号宣传物料
+├── examples/prompts.md      # 调用样例
 └── references/
     ├── topic-templates.md  # 8 个选题模板
     ├── title-formulas.md   # 7 种公式与禁用规则
@@ -153,3 +154,11 @@ bigpeng-hot-gzh/
 ## License
 
 [MIT](./LICENSE) · 作者 [BigPeng](https://github.com/BigPengSays)
+
+---
+
+## 关于作者
+
+欢迎关注公众号「大鹏说AI」，获取更多 AI 干货：
+
+![大鹏说AI 公众号](./assets/author-wechat.png)
