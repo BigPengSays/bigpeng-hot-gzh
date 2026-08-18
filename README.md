@@ -161,4 +161,4 @@ bigpeng-hot-gzh/
 
 欢迎关注公众号「大鹏说AI」，获取更多 AI 干货：
 
-![大鹏说AI 公众号](./assets/author-wechat.png)
+![大鹏说AI 公众号](./assets/author-wechat-v2.png)
